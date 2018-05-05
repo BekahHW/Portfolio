@@ -2,7 +2,6 @@
 body {
   background-color: #f7f7f7;
   padding-top: 2px;
-
 }
 
 p {
@@ -19,10 +18,7 @@ ul {
   justify-content: space-around;
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-
 }
-
-
 
 /* Global Elements */
 main {
@@ -33,17 +29,17 @@ header {
   width: 100%;
 }
 
+h2, h1 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
 h1 {
     font-size: 2em;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
 }
 
 h2 {
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
   font-size: 1em;
-
 }
 
 a {
@@ -54,12 +50,7 @@ a {
 
 a:hover {
      text-shadow: 8px 8px 10px #d15fee;
-
 }
-
-
-
-
 
 /* Text styles */
 .opening {
@@ -69,7 +60,6 @@ a:hover {
 }
 
 .name {
-
   font-family: 'Raleway', sans-serif;
   font-size: 2.5em;
   text-align: left;
@@ -97,7 +87,6 @@ hr {
     border-top: 1px solid #ccc;
     margin-bottom: 1em;
 }
-
 
 .large {
   width: 90%;
@@ -138,8 +127,8 @@ ul {
   font-weight: bold;
   }
 }
-/* footer */
 
+/* footer */
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 20px;
@@ -149,7 +138,7 @@ footer {
     margin-top: 16px;
 }
 
-.footer {
+.social {
   color: white;
   width: 100%;
   list-style: none;
